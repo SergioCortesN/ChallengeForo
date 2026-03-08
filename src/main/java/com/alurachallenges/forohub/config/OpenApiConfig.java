@@ -19,6 +19,6 @@ public class OpenApiConfig {
                         .version("v1.0.0")
                         .contact(new Contact().name("ForoHub Maintainer"))
                         .license(new License().name("MIT")))
-                .externalDocs(new ExternalDocumentation().description("Challenge context").url("/context/instructions.md"));
+                ;
     }
 }
